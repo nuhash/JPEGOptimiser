@@ -1,5 +1,5 @@
 sudo apt-get update
 sudo apt-get install jpegoptim -y
-cd public/images/
+cd $WERCKER_JPEGOPTIMISER_DIRECTORY
 ls -l
-jpegoptim -m50 -s *.jpg
+jpegoptim -m$WERCKER_JPEGOPTIMISER_AMOUNT -s *.jpg
