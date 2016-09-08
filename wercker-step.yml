@@ -1,0 +1,7 @@
+name: JPEGOptimiser
+version: 0.0.1
+description: compresses jpegs
+properties:
+    directory:
+        type: string
+        required: false
